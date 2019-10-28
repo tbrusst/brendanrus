@@ -1,0 +1,94 @@
+/*
+ * Typography
+ *
+ * This file collects some basic typography styles for copy text.
+ *
+ *****************************************************************************/
+
+//variables
+$body-font: "Object Sans";
+$heading-font: "Monument Extended";
+
+//global styles for typography
+body {
+  font-size: 100%;
+  letter-spacing: $kerning50;
+  line-height: $line-height-lg;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  color: $text-color;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-family: $heading-font;
+  font-size: 1.5rem;
+  @media only screen and (min-width: 768px) {
+    font-size: 3rem;
+  }
+  @media only screen and (min-width: 1280px) {
+    font-size: 5rem;
+  }
+}
+
+h2 {
+  font-family: $heading-font;
+  font-size: 1.5rem;
+  @media only screen and (min-width: 768px) {
+    font-size: 2.5rem;
+  }
+  @media only screen and (min-width: 1280px) {
+    font-size: 3.5rem;
+  }
+}
+
+h3 {
+  font-family: $body-font;
+  font-size: 1.25rem;
+  font-weight: normal;
+  @media only screen and (min-width: 768px) {
+    font-size: 1.5rem;
+  }
+  @media only screen and (min-width: 1280px) {
+    font-size: 1.8rem;
+  }
+}
+
+h4 {
+  margin: 0 0 -1rem 0;
+  color: $primary-brand;
+  font-family: $body-font;
+  font-size: 1rem;
+  font-weight: normal;
+  @media only screen and (min-width: 768px) {
+    margin: 0 0 -1.75rem 0;
+    font-size: 1.2rem;
+  }
+  @media only screen and (min-width: 1280px) {
+    margin: 0 0 -2.5rem 0;
+    font-size: 1.4rem;
+  }
+}
+
+p {
+  font-family: $body-font;
+  font-weight: bold;
+  font-size: 0.9rem;
+  @media only screen and (min-width: 768px) {
+    font-size: 1.1rem;
+  }
+  @media only screen and (min-width: 1280px) {
+    font-size: 1.1rem;
+  }
+}
