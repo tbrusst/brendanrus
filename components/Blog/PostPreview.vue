@@ -1,7 +1,7 @@
 <template>
   <nuxt-link :to="id">
     <div id="postprev-wrap">
-      <h4>{{id}}</h4>
+      <h4>{{medium}}</h4>
       <div id="postprev-title">
         <h1 id="yolo" class="postPrev">{{ title }}</h1>
         <div id="postprev-image" :style="{backgroundImage: 'url(' + image + ')'}"></div>
