@@ -1,21 +1,23 @@
 <template>
   <section>
     <div id="content-info">
-      <h4>Experience Designer</h4>
+      <h4>Creative Technologist</h4>
       <h1>BRENDAN RUSSO</h1>
 
       <div id="lower">
         <div id="image"></div>
         <div id="info-text">
           <p>
-            I am a digital product designer working part-time as a UX Designer at
+            I am currently working part-time as a UX Designer at a software startup called
             <a
               target="_blank"
               id="setvi"
               href="http://setvi.com/"
-            >Setvi</a>. I graduated from Drexel University with a B.S. in Interactive Digital Media in June 2019 and am actively seeking full-time employment.
+            >Setvi</a>
+            . I studied Interactive Digital Media at Drexel University and am currently seeking full time opportunities in and around Philadelphia.
           </p>
-          <p>My formal training in digital media has allowed me to become well accomplished in interface design, user experience, and interactive development. Please contact me regarding opportunities in related fields.</p>
+          <p>My training and experience in digital media have allowed me to become well accomplished in UX/UI, motion design, and frontend development. As a Creative Technologist I am able to design beautifully functional products and then bring them to life in code.</p>
+          <p>Please contact me with any questions you may have or with any information regarding opportunities in related fields.</p>
           <nuxt-link to="/work" tag="div" class="button" id="Work">
             <a>
               <p>View my work</p>
